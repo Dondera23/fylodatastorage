@@ -270,7 +270,6 @@ main{
     position: relative;
     top: -180px;
     width: 30%;
-    /* height: 80px; */
     left: 34%;
     border-radius: 10px 10px 0 10px;
   }
@@ -282,7 +281,7 @@ main{
     width: 0;
     height: 0;
     border-left: 23px solid transparent;
-    border-right: 2px solid hsl(255, 100%, 100%);
+    border-right: 1px solid hsl(255, 100%, 100%);
     border-top: 24px solid hsl(255, 100%, 100%);
   }
   .paragraph{
