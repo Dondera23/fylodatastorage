@@ -5,7 +5,7 @@ body{
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  color: yellow;
+  color: white;
 }
 main{
   width: 100vw;
@@ -278,7 +278,7 @@ main{
     content: "";
     position: absolute;
     bottom: -20px;
-    left: 88%;
+    left: 87%;
     width: 0;
     height: 0;
     border-left: 22px solid transparent;
