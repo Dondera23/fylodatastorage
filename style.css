@@ -1,0 +1,291 @@
+body{
+  background-image: url(./images/bg-mobile.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: yellow;
+}
+main{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.container{
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 20px;
+}
+.header{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: hsl(228, 56%, 26%);
+  width: 80%;
+  margin: 0 auto;
+  gap: 25px;
+  padding: 2rem;
+  border-radius: 5px 100px 5px 5px;
+}
+.logo{
+  width: 150px;
+}
+.icons{
+  display: flex;
+  gap: 20px;
+}
+.paragraph{
+  color: hsl(243, 100%, 93%);
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.items{
+  background-color: hsl(229, 57%, 11%);
+  padding: 0.6rem;
+  border-radius: 10px;
+}
+.one{
+  width: 30px;
+  height: 25px;
+  margin: auto;
+}
+.card{
+  background-color: hsl(228, 56%, 26%);
+  padding: 2rem;
+  text-align: center;
+  border-radius: 10px;
+  width: 80%;
+  margin: 0 auto;
+}
+.two{
+  background-color: hsla(229, 57%, 11%, 50%);
+  width: 95%;
+  margin: 0 auto;
+  height: 18px;
+  padding: 0.1rem;
+  border-radius: 10px;
+}
+.three{
+  background: linear-gradient(90deg, hsl(6, 100%, 80%), hsl(335, 100%, 65%));
+  width: 70%;
+  height: 16px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: flex-end;
+  padding: 0.15rem;
+}
+.cap{
+  width: 15px;
+  height: 15px;
+  background-color: hsl(243, 100%, 93%);
+  border-radius: 10px;
+}
+.four{
+  display: flex;
+  justify-content: space-between;
+  color: hsl(243, 100%, 93%);
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+.smallcard{
+  background-color: hsl(255, 100%, 100%);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  width: 60%;
+  height: 65px;
+  border-radius: 10px;
+  position: relative;
+  top: 30%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.number{
+  font-size:xx-large;
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  color: hsl(229, 57%, 11%);
+}
+.text{
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  color: hsl(229, 7%, 55%);
+}
+@media screen and (min-width: 768px) and (max-width: 800px) {
+  .container{
+    width: 75%;
+  }
+}
+
+@media screen and (min-width: 820px) and (max-width: 834px) {
+  body{
+    background-image: url(./images/bg-desktop.png);
+    background-repeat: no-repeat;
+    background-size: 100% 50%;
+    background-color: hsl(229, 57%, 11%);
+    background-position: 100% bottom;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  main{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 80%;
+    margin: 0 auto;
+  }
+  .header{
+    width: 40%;
+  }
+  .card{
+    height: 90px;
+    width: 60%;
+    align-self: flex-end;
+  }
+  .smallcard{
+    position: relative;
+    top: -200px;
+    left: 20%;
+    border-radius: 10px 10px 0 10px;
+  }
+  .smallcard::after{
+    content: "";
+    position: absolute;
+    bottom: -20px;
+    left: 87%;
+    width: 0;
+    height: 0;
+    border-left: 22px solid transparent;
+    border-right: 2px solid hsl(255, 100%, 100%);
+    border-top: 24px solid hsl(255, 100%, 100%);
+  }
+}
+
+@media screen and (min-width: 884px) and (max-width: 885px) {
+  body{
+    background-image: url(./images/bg-desktop.png);
+    background-repeat: no-repeat;
+    background-size: 100% 50%;
+    background-color: hsl(229, 57%, 11%);
+    background-position: 100% bottom;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  main{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 80%;
+    margin: 0 auto;
+  }
+  .header{
+    width: 40%;
+  }
+  .card{
+    height: 90px;
+    width: 60%;
+    align-self: flex-end;
+  }
+  .smallcard{
+    position: relative;
+    top: -200px;
+    left: 20%;
+    border-radius: 10px 10px 0 10px;
+  }
+  .smallcard::after{
+    content: "";
+    position: absolute;
+    bottom: -20px;
+    left: 88%;
+    width: 0;
+    height: 0;
+    border-left: 22px solid transparent;
+    border-right: 2px solid hsl(255, 100%, 100%);
+    border-top: 24px solid hsl(255, 100%, 100%);
+  }
+}
+@media screen and (min-width: 886px) {
+  body{
+    background-image: url(./images/bg-desktop.png);
+    background-repeat: no-repeat;
+    background-size: 100% 50%;
+    background-color: hsl(229, 57%, 11%);
+    background-position: 100% bottom;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  main{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 80%;
+    margin: 0 auto;
+  }
+  .header{
+    width: 40%;
+  }
+  .card{
+    height: 75px;
+    width: 60%;
+    align-self: flex-end;
+  }
+  .smallcard{
+    position: relative;
+    top: -180px;
+    width: 30%;
+    /* height: 80px; */
+    left: 34%;
+    border-radius: 10px 10px 0 10px;
+  }
+  .smallcard::after{
+    content: "";
+    position: absolute;
+    bottom: -20px;
+    left: 88%;
+    width: 0;
+    height: 0;
+    border-left: 22px solid transparent;
+    border-right: 2px solid hsl(255, 100%, 100%);
+    border-top: 24px solid hsl(255, 100%, 100%);
+  }
+  .paragraph{
+    margin-top: 0;
+  }
+}
