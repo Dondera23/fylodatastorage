@@ -226,12 +226,12 @@ main{
 
 @media screen and (min-width: 1700px) and (max-width: 1999px) {
   .smallcard{
-    left: 35%;
+    left: 50%;
 }
 
 @media screen and (min-width: 2000px) and (max-width: 2399px) {
   .smallcard{
-    left: 37%;
+    left: 55%;
   }
 }
 
