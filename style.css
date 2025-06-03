@@ -1,3 +1,4 @@
+/* Mobile Section */
 body{
   background-image: url(./images/bg-mobile.png);
   background-repeat: no-repeat;
@@ -22,6 +23,7 @@ main{
   justify-content: space-between;
   gap: 20px;
 }
+/* header section */
 .header{
   display: flex;
   flex-direction: column;
@@ -57,6 +59,7 @@ main{
   height: 25px;
   margin: auto;
 }
+/* second card section */
 .card{
   background-color: hsl(228, 56%, 26%);
   padding: 2rem;
@@ -127,12 +130,13 @@ main{
   font-style: normal;
   color: hsl(229, 7%, 55%);
 }
+/* styling for screens within 76px and 800px (tab and ipad mini) */
 @media screen and (min-width: 768px) and (max-width: 800px) {
   .container{
     width: 75%;
   }
 }
-
+/* styling for larger screens */
 @media screen and (min-width: 801px) {
   body{
     background-image: url(./images/bg-desktop.png);
@@ -148,13 +152,15 @@ main{
     flex-direction: column;
     justify-content: center;
   }
-  
+  /* container section */
   .container{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    width: 85%;
+    width: 800px;
     margin: 0 auto;
+    gap: 50px;
+    padding: 2rem;
   }
   .header{
     width: 30%;
@@ -169,69 +175,22 @@ main{
   }
   .smallcard{
     position: relative;
-    width:245px;
-    height:80px;
-    top: -222px;
-    left: 12%;
+    width:200px;
+    height:70px;
+    top: -205px;
+    left: 100px;
     border-radius: 10px 10px 0 10px;
   }
   .smallcard::after{
     content: "";
     position: absolute;
     bottom: -20px;
-    left: 91%;
+    left: 178px;
     width: 0;
     height: 0;
     border-left: 22px solid transparent;
     border-right: 1px solid hsl(255, 100%, 100%);
     border-top: 24px solid hsl(255, 100%, 100%);
-  }
-}
-
-@media screen and (min-width: 850px) and (max-width: 999px) {
-   .smallcard{
-     left: 18%;
-   }
-}
-
-@media screen and (min-width: 1000px) and (max-width: 1099px) {
-   .smallcard{
-     left: 24%;
-   }
-}
-
-@media screen and (min-width: 1100px) and (max-width: 1199px) {
-  .smallcard{
-    left: 26%;
-  }
-}
-
-@media screen and (min-width: 1200px) and (max-width: 1299px) {
-  .smallcard{
-    left: 29%;
-  }
-}
-
-@media screen and (min-width: 1300px) and (max-width: 1499px) {
-  .smallcard{
-    left: 31%;
-  }
-}
-
-@media screen and (min-width: 1500px) and (max-width: 1699px) {
-  .smallcard{
-    left: 33%;
-  }
-}
-
-@media screen and (min-width: 1700px) and (max-width: 1999px) {
-  .smallcard{
-    left: 50%;
-}
-
-@media screen and (min-width: 2000px) and (max-width: 2399px) {
-  .smallcard{
-    left: 55%;
   }
 }
 
