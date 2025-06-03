@@ -194,9 +194,3 @@ main{
     border-top: 24px solid hsl(255, 100%, 100%);
   }
 }
-
-@media screen and (min-width: 2400px) {
-  .smallcard {
-    left: 40%;
-  }
-}
